@@ -59,7 +59,7 @@
         </div>
     </nav>
 
-    @if(session('success'))
+    {{-- @if(session('success'))
     <div
         x-data="{ show: true }"
         x-init="setTimeout(() => show = false, 5000)"
@@ -90,7 +90,7 @@
             </svg>
         </button>
     </div>
-    @endif
+    @endif --}}
 
     <div class="relative bg-gray-900 overflow-hidden py-32 sm:py-40">
 
